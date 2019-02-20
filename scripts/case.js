@@ -9,6 +9,7 @@ const ansElement = document.getElementById("answer");
 
 console.log('INFO: Configuring event handlers');
 
+/*
 inputElement1.onclick = function () {
   alert("thanks for clicking input 1!");
 };
@@ -20,7 +21,7 @@ inputElement2.ondblclick = () => {
 inputElement2.addEventListener("mouseover", () => {
   alert("thanks for mousing over input 2!");
 });
-
+*/
 
 btnElement.onclick = async function () {
   const text1 = inputElement1.value;  // values are text! 
